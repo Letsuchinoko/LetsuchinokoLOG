@@ -21,6 +21,14 @@ div.menu
 	text-align: left;
 	font-size: 11px;
 }
+div.menu-titre
+{
+	margin-top: 15px;
+	padding: 5px 0px 2px 0px;
+	font-size: 16px;
+	color: #3E910C;
+	font-weight: bold;
+}
 div.contenu
 {
 	float: right;
