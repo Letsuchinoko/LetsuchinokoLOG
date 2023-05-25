@@ -41,7 +41,7 @@ div.contenu
 div.colonnes
 {
 	width: 992px;
-	min-height: 2000px;
+	min-height: 2500px;
 	background: url('Images/colonnes.png');
 	background-repeat: repeat-y;
 	/*border-bottom: solid 1px #003974; /* HIVER*/
