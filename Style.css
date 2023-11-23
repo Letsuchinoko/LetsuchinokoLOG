@@ -6,8 +6,7 @@ div.page
 div.titre
 {
 	width: 990px;
-	/*border: solid 1px #003A75; /* HIVER */
-	border: solid 1px #2D6000; /* PRINTEMPS */
+	border: solid 1px #2D6000;
 	color: #ffffff;
 }
 
@@ -44,8 +43,7 @@ div.colonnes
 	min-height: 2500px;
 	background: url('Images/colonnes.png');
 	background-repeat: repeat-y;
-	/*border-bottom: solid 1px #003974; /* HIVER*/
-	border-bottom: solid 1px #2D6000; /* PRINTEMPS */
+	border-bottom: solid 1px #2D6000;
 }
 td, th {
 	border: 1px solid rgb(190,190,190);
@@ -62,7 +60,6 @@ body
 	margin: 4px 0px 0px 0px;
 	padding: 0;
 	text-align: center;
-	/*background-color: #D2EAF7; /* HIVER */
 	background-color: #E5F7D2; /* PRINTEMPS */
 	font-family: verdana, sans-serif;
 	font-size: 12px;
