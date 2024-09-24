@@ -40,7 +40,7 @@ div.contenu
 div.colonnes
 {
 	width: 992px;
-	min-height: 2500px;
+	min-height: 2200px;
 	background: url('Images/colonnes.png');
 	background-repeat: repeat-y;
 	border-bottom: solid 1px #2D6000;
@@ -64,3 +64,24 @@ body
 	font-family: verdana, sans-serif;
 	font-size: 12px;
 }
+@media (prefers-color-scheme: dark) {
+	body {
+	background-color: #1c1c1e;
+	color: #fefefe;
+	}
+	a {
+	color: #5fa9ee;
+	}
+	img {
+	filter: grayscale(20%);
+	}
+	div.colonnes{
+	filter: invert(100%);
+	}
+	table{
+	filter: invert(100%);
+	}
+	p{
+	filter: invert(100%);
+	}
+	}
