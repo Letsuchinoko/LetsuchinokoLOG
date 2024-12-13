@@ -76,7 +76,7 @@ body
 	filter: grayscale(20%);
 	}
 	div.colonnes{
-	filter: invert(100%);
+		filter: grayscale(20%);
 	}
 	table{
 	filter: invert(100%);
